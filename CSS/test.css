@@ -1,0 +1,39 @@
+.csw-btn{
+    text-align: right;
+    margin-top: 10px;
+}
+
+.csw-btn-button {
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color: #009952;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    text-align: right;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+  .csw-btn-button:hover {
+    background: #292929;
+  }
+
+  .csw-bts{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.csw-bts-button {
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color: #009952;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    text-align: left;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+  .csw-bts-button:hover {
+    background: #292929;
+  }

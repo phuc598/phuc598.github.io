@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/bai2.css">
+</head>
+<body>   
+     <form action="dadangnhap.html">
+        <div class="form-group">
+        <label for="name">HỌ VÀ TÊN</label><br>
+        <input type="text" name="name" class="form-control">
+        </div>
+    
+    
+        <fieldset class="form-group">
+            <legend>GIỚI TÍNH</legend>
+            <input type="radio" name="gender" class="form-control">
+            <label for="gender">NAM</label>
+            <input type="radio" name="gender" class="form-control">
+            <label for="gender">NỮ</label>
+            <input type="radio" name="gender" class="form-control">
+            <label for="gender">KHÁC</label>
+        </fieldset>
+        <div class="form-group">
+            <label for="date">NGÀY SINH</label><br>
+            <input type="date" name="date" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="job">NGHỀ NGHIỆP</label><br>
+            <select name="job" class="form-control">
+                <option value="Giáo Viên">GIÁO VIÊN</option>
+                <option value="Lập Trình Viên">LẬP TRÌNH VIÊN</option>
+                <option value="Nhân Viên Tư Vấn">NHÂN VIÊN TƯ VẤN</option>
+                <option value="Nhân Viên Kiểm Hàng">NHÂN VIÊN KIỂM HÀNG</option>
+                <option value="Phục Vụ">PHỤC VỤ</option>
+            </select>
+        </div>
+        <fieldset class="form-group">
+            <legend>SỞ THÍCH</legend>
+            <input type="checkbox" name="sport" class="form-control">
+            <label for="sport">THỂ THAO</label>
+            <input type="checkbox" name="sport" class="form-control">
+            <label for="watch">XEM PHIM</label>
+            <input type="checkbox" name="travel" class="form-control">
+            <label for="travel">DU LỊCH</label>
+            <input type="checkbox" name="music" class="form-control">
+            <label for="music">ÂM NHẠC</label>
+            <input type="checkbox" name="food" class="form-control">
+            <label for="food">ẨM THỰC</label>
+        </fieldset>
+        <div class="form-group">
+             <label for="note">GIỚI THIỆU BẢN THÂN</label><br>
+             <textarea name="note" id="" cols="30" rows="10" class="form-control"></textarea>
+        </div>
+        <hr>
+        <div class="form-group">       
+        <button class="form-button">CẬP NHẬT</button>  
+    </form>
+</div>
+</body>
+</html>
